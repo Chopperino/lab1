@@ -1,0 +1,126 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(248, 236, 221);
+}
+.header {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+.header li {
+  float: left;
+}
+
+.header li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.header li a:hover {
+  background-color: #111111;
+}
+
+.title-home {
+  display: flex;
+  align-items: center;
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/pizza-title.jpg");
+  background-repeat: no-repeat;
+}
+
+.title-home-text {
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 42px;
+  font-family: Garamond, serif;
+}
+
+.search-bar {
+  margin: 0;
+  width: 100%;
+}
+
+.lists-home {
+  margin-top: 20px;
+}
+
+.list-home-top {
+  display: inline-block;
+  width: 49%;
+  text-align: center;
+}
+
+.list-home-top ol {
+  display: inline-block;
+  text-align: left;
+}
+
+.list-home-catagories {
+  display: inline-block;
+  width: 49%;
+  text-align: center;
+}
+
+.list-home-catagories ul {
+  display: inline-block;
+  text-align: left;
+}
+
+form {
+  width: 800px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+input {
+  padding: 4px 10px;
+  border: 0;
+  font-size: 16px;
+}
+
+.search {
+  width: 75%;
+}
+
+.submit {
+  width: 70px;
+  background-color: #1c87c9;
+  color: #ffffff;
+}
+
+table,
+td,
+th {
+  border: 1px solid;
+}
+
+table {
+  width: 70%;
+  border-collapse: collapse;
+}
+
+#table-section {
+  margin-top: 50px;
+  text-align: center;
+}
+
+#table-section table {
+  margin-left: auto;
+  margin-right: auto;
+}
