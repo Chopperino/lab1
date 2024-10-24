@@ -30,7 +30,13 @@ public class MatrixOperations {
         }
     }
 
-    // Метод для виконання матричного добутку A*B
+    /**
+     * Метод для виконання матричного добутку матриць A і B.
+     *
+     * @param matrixA матриця A типу char
+     * @param matrixB матриця B типу char
+     * @return матриця результату типу int
+     */
     private static int[][] matrixMultiplication(char[][] A, char[][] B) {
         int rows = A.length;
         int cols = B[0].length;
@@ -47,7 +53,12 @@ public class MatrixOperations {
         return C;
     }
 
-    // Метод для обчислення середнього значення кожного рядка
+    /**
+     * Метод для обчислення середнього значення елементів кожного рядка матриці.
+     *
+     * @param matrix матриця типу int
+     * @return масив середніх значень рядків типу double
+     */
     private static double[] calculateRowAverages(int[][] matrix) {
         double[] averages = new double[matrix.length];
 
@@ -61,7 +72,11 @@ public class MatrixOperations {
         return averages;
     }
 
-    // Метод для виводу матриці
+    /**
+     * Метод для виведення матриці на екран.
+     *
+     * @param matrix матриця типу int
+     */
     private static void printMatrix(int[][] matrix) {
         for (int[] row : matrix) {
             for (int value : row) {
